@@ -1,0 +1,9 @@
+# Link checker configuration: https://lychee.cli.rs/
+exclude_path = ["dist", "node_modules"]
+# Repository URLs that only resolve once the repo is public / features enabled.
+exclude = [
+  "^https://github.com/calliarc/smb-security-policies/security/advisories/new",
+]
+max_retries = 3
+timeout = 20
+accept = ["200..=299", "429"]

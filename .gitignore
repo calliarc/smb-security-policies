@@ -12,3 +12,8 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 *.swp
+
+# Build output and local company config
+dist/
+company.yml
+__pycache__/

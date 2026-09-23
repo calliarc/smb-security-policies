@@ -1,0 +1,54 @@
+# Company settings for smb-security-policies.
+#
+# Copy this file to company.yml, edit the values, then run:
+#   python3 scripts/build.py --config company.yml
+#
+# Each key fills the matching {{KEY}} placeholder in policies/*.md.
+# Use role titles (for example "Head of Operations") rather than personal
+# names where people may change; put names and phone numbers in the
+# incident response contact tree after building.
+
+# --- Organisation --------------------------------------------------------
+COMPANY_NAME: "Example Co Ltd"
+EFFECTIVE_DATE: "2026-10-01"
+INTRANET_URL: "https://intranet.example.com/it"
+
+# --- People and roles ----------------------------------------------------
+POLICY_OWNER: "Head of Operations"
+EXECUTIVE_SPONSOR: "Chief Executive Officer"
+EXECUTIVE_BACKUP: "Chief Financial Officer"
+SECURITY_LEAD: "IT and Security Manager"
+IR_BACKUP_LEAD: "Operations Manager"
+HR_LEAD: "HR Manager"
+COMMS_LEAD: "Marketing Manager"
+LEGAL_COUNSEL: "External legal counsel (Example Law LLP)"
+PRIVACY_CONTACT: "Data Protection Lead"
+
+# --- IT provider and contacts --------------------------------------------
+IT_PROVIDER: "Internal IT team"
+IT_BACKUP_CONTACT: "Managed service provider on-call line"
+IT_HELPDESK: "the IT help desk (helpdesk@example.com, +1 555 0100)"
+SECURITY_EMAIL: "security@example.com"
+PHISHING_REPORT_METHOD: "the \"Report phishing\" button in Outlook"
+
+# --- Insurance and outside help ------------------------------------------
+CYBER_INSURER: "Example Mutual Cyber"
+INSURER_HOTLINE: "+1 555 0199"
+IR_RETAINER: "None"
+
+# --- Tools ---------------------------------------------------------------
+IDENTITY_PROVIDER: "Microsoft Entra ID"
+PASSWORD_MANAGER: "Bitwarden"
+FILE_STORAGE: "SharePoint and OneDrive"
+DEVICE_MANAGEMENT: "Microsoft Intune"
+VPN_OR_SECURE_ACCESS: "the company VPN"
+ACCESS_REQUEST_METHOD: "the IT help desk portal"
+
+# --- Timeframes and retention --------------------------------------------
+ONBOARDING_NOTICE_DAYS: "5"
+TRAINING_DEADLINE_DAYS: "30"
+ACCOUNT_DELETION_PERIOD: "90 days"
+LOG_RETENTION_PERIOD: "12 months"
+INCIDENT_RECORD_RETENTION: "3 years"
+POST_INCIDENT_MONITORING_DAYS: "30"
+YEARLY_BACKUP_RETENTION: "7 years"

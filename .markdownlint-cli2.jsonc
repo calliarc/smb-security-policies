@@ -1,0 +1,16 @@
+{
+  // markdownlint rules: https://github.com/DavidAnson/markdownlint#rules--aliases
+  "config": {
+    "default": true,
+    // Policy text is written as long paragraphs; let editors wrap it.
+    "MD013": false,
+    // Repeated headings (e.g. "Version history") are fine in different sections.
+    "MD024": { "siblings_only": true },
+    // Allow a few inline HTML elements such as comments.
+    "MD033": false,
+    // Ordered lists use 1. 2. 3.
+    "MD029": { "style": "ordered" }
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**", "dist/**"]
+}
