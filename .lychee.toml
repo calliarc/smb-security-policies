@@ -3,6 +3,9 @@ exclude_path = ["dist", "node_modules"]
 # Repository URLs that only resolve once the repo is public / features enabled.
 exclude = [
   "^https://github.com/calliarc/smb-security-policies/security/advisories/new",
+  # Release tag and compare links resolve once v0.1.0 is tagged.
+  "^https://github.com/calliarc/smb-security-policies/releases/tag/",
+  "^https://github.com/calliarc/smb-security-policies/compare/",
 ]
 max_retries = 3
 timeout = 20

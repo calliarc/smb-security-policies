@@ -2,9 +2,10 @@
 
 Ready-to-use security policy templates for small and mid-size businesses.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0-blue)
 [![CI](https://github.com/calliarc/smb-security-policies/actions/workflows/ci.yml/badge.svg)](https://github.com/calliarc/smb-security-policies/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/calliarc/smb-security-policies?include_prereleases&sort=semver)](https://github.com/calliarc/smb-security-policies/releases)
+[![Built by CalliArc](https://img.shields.io/badge/built%20by-CalliArc-0a66c2)](https://www.calliarc.com/)
 
 > **Status:** v0.1.0, first release. Feedback and pull requests are welcome.
 
@@ -133,6 +134,10 @@ Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Disclaimer
 
 These templates are a starting point, not legal or compliance advice. Review and adapt them with your legal, HR and compliance advisors before adopting them.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
